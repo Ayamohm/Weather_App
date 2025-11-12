@@ -9,8 +9,8 @@ class WeatherCubit extends Cubit<WeatherState> {
 
   final Dio dio = Dio();
   final String _apiKey = 'a1e458a8bc8da2ad647febfb07a0edd3';
-  final double lat = 29.9816;
-  final double lon = 31.2811;
+  final double lat = 30.887941103823486;
+  final double lon = 31.745951439948715;
 
   Future<void> fetchWeather() async {
     emit(WeatherLoading());
